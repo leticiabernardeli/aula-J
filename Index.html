@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+     <script>
+        alert("Cursinho de programação do Juninho");
+     </script>
+     <form name="contact">
+        <h1>Contact</h1>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nomeid" placeholder="nome" required="required" name="nome"/>
+
+        <label for="fone">Telefone:</label>
+        <input type="tel" id="forneid" placeholder="(xx)xxxx-xxxx" required="required" name="fone">
+
+        <input name="cep" type="text" id="cep" value="" size="10" maxlength="9"
+        onblur="pesquisacep(this.value);" required="required"/>
+        <label>Cep</label>
+
+      <input name="rua" type="text" id="rua" size="60" required="required"/>
+      <label>Logradouro</label>
+
+      <input name="bairro" type="text" id="bairro" size="40" required="required"/>
+      <label><Label></Label></label>
+
+      <input name="cidade" type="text" id="cidade" size="40" required="required"/>
+      <label>cidade</label>
+
+      <input name="uf" type="text" id="uf" size="2" required="required"/>
+      <label>Logradouro</label>
+
+
+
+
+
+<label for="email">Email</label>
+<input type="email" id="emailid" placeholder="Insira seu email" required="required" email="email">
+<textarea placeholder="Deixe sua opinião"></textarea>
+
+<input type="submit" class="enviar" onclick="Enviar()" value="Enviar">
+     </form>
+</body>
+</html>
